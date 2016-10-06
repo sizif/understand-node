@@ -54,3 +54,8 @@ var grtr = new Greet4();
 // because, Greet4 is now a constructor function, which I'm making
 // obvious with the capital G
 grtr.greet();
+
+
+// revealing module pattern
+var greet5 = require('./greet5').greet;
+greet5();
