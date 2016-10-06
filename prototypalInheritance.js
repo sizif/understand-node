@@ -15,3 +15,6 @@ john.greet(); // JS engine will search down the prototype chain, because john do
 var jane = new Person('Jane', 'Doe');
 jane.greet();
 
+console.log(john.__proto__);
+console.log(jane.__proto__);
+
