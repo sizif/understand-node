@@ -1,5 +1,14 @@
+// MODULE PATTERN 2
 var greet = require('./greet1');
 greet();
+
+// require greet 2 like this...
+// var greet2 = require('./greet2');
+// greet2.greet();
+
+// or require greet2 like this:
+var greet2 = require('./greet2').greet;
+greet2();
 
 /*
 (in greet1.js):
