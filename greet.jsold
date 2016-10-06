@@ -1,0 +1,14 @@
+var greet = function() {
+    console.log('hello');
+};
+
+module.exports = greet;
+
+/*
+require is a function, that you pass a 'path' too
+
+module.exports is what the require function RETURNS
+
+this works because you code is actually wrapped in a function
+that is given these things as function parameters
+*/
