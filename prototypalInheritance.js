@@ -17,4 +17,5 @@ jane.greet();
 
 console.log(john.__proto__);
 console.log(jane.__proto__);
+console.log(john.__proto__ === jane.__proto__); // do they share the same proto?
 
