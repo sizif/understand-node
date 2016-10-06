@@ -19,3 +19,8 @@ a single function
 then, when I go to require it, I simply set the variable greet in 
 app1.js to the results of the require function
 */
+
+// MODULE PATTERN 3:
+var greet3 = require('./greet3');
+greet3.greet();
+
