@@ -16,3 +16,5 @@ var c = {};
 c.prop1 = {};
 changeObj(c);
 console.log(c);
+
+// display(c)
