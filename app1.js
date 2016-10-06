@@ -46,3 +46,11 @@ it was cached.
 
 
 */
+
+var Greet4 = require('./greet4');
+// in order to create a new greetr object I would now have to say:..
+var grtr = new Greet4();
+
+// because, Greet4 is now a constructor function, which I'm making
+// obvious with the capital G
+grtr.greet();
